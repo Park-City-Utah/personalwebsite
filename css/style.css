@@ -1040,7 +1040,6 @@ input[type="text"] {
   width: 100%;
   height: 500px;
   position: relative;
-  center: {lat: 0.00, lng:100.00},
 }
 @media screen and (max-width: 768px) {
   #map {
