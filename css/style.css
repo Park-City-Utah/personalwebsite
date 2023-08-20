@@ -51,7 +51,7 @@ body {
 }
 
 a {
-  color: #ff9000;
+  color: #50aee4;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -59,7 +59,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #ff9000;
+  color: #4d9fec;
   outline: none;
   text-decoration: none;
 }
@@ -1335,4 +1335,3 @@ input[type="text"] {
   opacity: 0;
 }
 
-/*# sourceMappingURL=style.css.map */

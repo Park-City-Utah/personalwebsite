@@ -1,0 +1,119 @@
+﻿ParkerFerguson                         
+702.848.9822 
+parker@engineerd.io
+Website |LinkedIn | Medium
+Summary of Qualifications
+* Engineer, Founder & Author passionate about sharing my knowledge of technology with others
+* Technical, code contributing leader capable of adding transparency and predictability to development & release lifecycle
+* Champion of quality with a history of overcoming systemic challenges & developing a culture of quality within R&D
+* Data-driven decision maker with expert ability to communicate with technical & non-technical stakeholders
+Skills
+Strategic Planning, Business Continuity, Automation, Risk/Resource/Vendor/Release Management, Onshore/Offshore/ Remote Management, Continuous Integration & Delivery, Testing, Object Oriented Programming (OOP), Behavior Driven Development (BDD), Page Object Model (POM), Scripting, Database, Incident Management, Blockchain, web3, NFT, Scrum master, Process Mapping, Lean Sigma Six, Data & Service virtualization
+
+
+GraphQL, REST, Javascript, Python, Solidity, Node.js, React/React Native, Ruby, Cucumber/Gherkin, Capybara, HTML, JSON, SQL
+
+
+Docker, Bamboo, Jenkins, BitBucket, GitHub, GitLab, Zephyr, Postman, Visual Studio, TestStudio, Sahi, TestRail, FogBugz, JMeter, Opencover, NCover, Sauce Labs, MySQL, WireShark, Zeek, Volatility, Windows & MAC, Selenium, Appium, AWS (CloudFront, Elastic Beanstalk, SSM, S3, Lambda, EC2, Cert Manager, Route 53, IAM), Ansible, Kafka, LVM, Splunk, New Relic, Tenable, Remix, Zabbix, Nginx, Jira (Administration)
+Relevant Experience
+Software Engineer & Founder, EngineeRD
+Blockchain Developer & Technical Lead: Chanlink verified (VRF) randomized generative art NFT deployed to the Ethereum blockchain w/ Python, Brownie, IPFS, Pinata, Solidity (ERC-721).
+Blockchain Developer: POC on-chain NFT game featuring Solidity SVG generation at mint.
+Data Analyst, Programmer & Consultant: Data analysis & automation of quarterly depletion reporting. Marketeam provides marketing & menu services to many of Las Vegas largest properties.
+Developer, Author: Web3 tutorials published in Better-Programming, Coinmonks, The Startup.
+	2021 – Current
+	Sr. Process Engineer, Caesars Digital
+	   2021 – Current
+	Assessment, design, implementation & strategic oversight of scalable, data-informed, processes & tooling.
+* Developed customer focused DMADV iterative improvement strategies including a tiered support model w/ unified ingestion, consistent data capture & controls reducing both TTR & Major Incidents ~20% YoY (PagerDuty, Slack, Jira)
+* Created cross-functional ‘Hyper-care’ support model for top deliverables 2023 (Native iOS, BackOffice, iGaming, Retail)
+* Hands-on Jira Administration including automation, reporting & integrations increasing visibility & reducing risk
+* Oversaw Vulnerability Management Initiatives (Tenable, Tenable-Jira Integration, 3rd party audits & remediation)
+* Authored, tested and implemented Ansible automation plays to recursively find, cross-reference & update eligible IPs during production data center migration, significantly reducing resource requirements and scheduled maintenance time
+
+
+
+
+Interim Director - Quality Engineering & Technical Writing, Kaseya - VSA
+	2018 – 2020
+	Internationally relocated to engage flagship product as Director of Quality Engineering.
+* Analyzed legacy strategies, identified underleveraged KPIs & retooled Jira to tightly couple & clearly identify the relationship between development, planning & quality outcomes - allowed for data-driven, iterative improvement
+* Lead re-design & implementation of automation strategy to cut manual test effort by additional 20% in 3 months
+* Reduced manual testing 30% via value based test system matrix & standards, elimination of low-value permutations
+* Oversaw identification of 1000+ bugs & retroactive creation of of hundreds of test cases without requirements
+* Early release adoption increase of 50% as direct result from an improved ability to release quality software
+* Jira Administration & task automation saved Engineering Managers upwards of 10 hours per sprint
+* Partnered with DevOps on GDPR compliant data center migration testing saving 4% of sales via fines
+* Increased Org-wide visibility via dashboards, real-time Zephyr API test results, email & Zabbix test env status
+* Visually reported cost as time spent on several potential points of improvement in SDLC, implemented solutions
+Executive Summit Special Guest: Developed, presented & later implemented Business Unit Alignment Quality Initiative in accordance with the ISO 25010 standard model
+Senior SDET (Technical Lead), Kaseya - Identity & Access Management
+	2016 – 2018
+	Uniquely effective individual contributor, recognized thought leader, mentor and Technical Lead.
+* Developed & implemented BDD & REST API focused test framework for web & mobile testing
+* Containerized test executions using Docker, Selenium, GitHub and Jenkins
+* Followed Object Oriented design principles including Factories & Page Object Model (POM)
+* REST API based setup/teardown strategy for speed, reuse & low maintenance reliability (non-brittle)
+* CI (merge) driven testing with Jira Zephyr ‘ZAPI’ real-time test results; email & chat notification via Jenkins
+Recipient of excellence in teamwork award and cash prize
+	Software Development Engineer in Test, Kaseya - AuthAnvil
+	2014 – 2016
+	Individual contributor with best in Org automation coverage, stability and reporting.  
+* Developed overall test strategy for next generation Identity & Access Management products
+* Implemented hybrid data driven REST service & CSV keyword scenario based test framework
+	Relevant Personal Projects
+NFT Generative art, smart contract, highly available & secure minting website hosted in AWS - Python, React, AWS S3, Cloudfront, Chainlink. Tutorial published in Coinmonks.
+	2022
+	NLP Sentiment Analysis Twitter data sentiment analysis by keyword. Containerized API driven web application hosted in AWS - React, Tweepy API, Python, Pandas, PyPlot, Elastic Beanstalk, Docker, Express API, Nginx, Redis, PostGres, Travis CI, gitHub.
+	2022
+	Education
+Diploma of Computer Technology - Database, British Columbia Institute of Technology
+	2012 – 2014
+	Bachelor's Degree - Second Degree Program -  Computer Science, Simon Fraser University
+	2011 – 2012
+	Bachelor of Business Administration - General, Thompson Rivers University
+	2005 – 2010
+	Certifications
+Atlassian Certified Professional - Jira
+	2023
+	AWS Certified Developer Associate
+	2021
+	AWS Certified Cloud Practitioner
+	2021
+	Coursera INFOSEC (3 course) Cyber Incident Response Specialization
+	2021
+	SCRUM.org Professional SCRUM Master PSM1
+	2020
+	Certified Bitcoin Professional
+	2018
+
+
+
+Recommendations:
+
+Gray Knowlton, VP Of Engineering at OpsCompass
+Gray managed Parker directly
+"Parker has had
+a profound effect on Quality Assurance at Kaseya, bringing the critically important
+backbone required of a great QA organization. Parker is detail oriented, data
+driven, and strongly principled. His knowledge of QA practice in both manual and
+automated environments is outstanding. He has a strong eye for efficiency and
+optimization, and did a wonderful job streamlining quality efforts of multiple
+products to bring the required effort in line with available resources, and
+producing much more reliable results. Most importantly, Parker knows how to build
+quality environments that yield high quality, customer friendly software."
+
+Vincent Tessier, Director of Software Engineering at Drips
+Parker worked with Vincent in the same group
+Parker is an
+excellent hands-on leader and manager with great expertise in all aspects of
+software quality. We have been working together for almost 3 years and I have seen
+him solving very difficult problems with strong time constraints. Parker makes
+decisions based on data. His vision, skills and process improvements of QA are
+outstanding while providing very detailed reporting of all stages of QA operations.
+He is also very focused on automation to improve test coverage in all areas of
+software products. His managerial skills are excellent. Overall, I strongly
+recommend Parker.
+
+
+
