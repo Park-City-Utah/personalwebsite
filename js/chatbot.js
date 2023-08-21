@@ -1,11 +1,12 @@
-import { returnAPIKey } from "./apikey.js";
+import { fetchData } from "./apikey.js";
 const chatbotMessages = document.getElementById('chatbot-messages');
 const userInput = document.getElementById('user-input');
 const sendButton = document.getElementById('send-button');
 const chatbotToggle = document.getElementById('chatbot-toggle');
 const chatbotContainer = document.getElementById('chatbot-container');
 const collapseButton = document.getElementById('collapse-button');
-const API_KEY = returnAPIKey();
+const API_KEY = fetchData();
+//testing
 const resume = `
 Information:
 Name: ParkerFerguson    
@@ -247,3 +248,5 @@ chatbotContainer.addEventListener('transitionend', () => {
       handleUserInput();
     }
   });
+
+
