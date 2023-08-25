@@ -5,8 +5,8 @@ const sendButton = document.getElementById('send-button');
 const chatbotToggle = document.getElementById('chatbot-toggle');
 const chatbotContainer = document.getElementById('chatbot-container');
 const collapseButton = document.getElementById('collapse-button');
-const API_KEY = fetchData();
-//testing
+const API_KEY = await fetchData();
+
 const resume = `
 Information:
 Name: ParkerFerguson    
@@ -27,8 +27,6 @@ Biography:
 I engage new technologies and tools as often as possible; I am consistent with year round course study, certifications and personal projects.I find teaching an excellent way to establish expertise and to this end I am a published author of multiple articles and tutorials with an audience of 80k and counting.
 Interested in blockchain technologies I recently founded an LLC, sourced contract work and acted as consultant and developer on several web3 projects.
 I am a graduate of both Business Administration & Computer Science and this is well reflected in my ability to deliver results in and across international teams, on-time and business aligned."
-
-
 
 Summary of Qualifications:
 - Engineer, Founder & Author passionate about sharing my knowledge of technology with others
@@ -92,12 +90,6 @@ Software Development Engineer in Test, Kaseya - AuthAnvil
 	Individual contributor with best in Org automation coverage, stability and reporting.  
 - Developed overall test strategy for next generation Identity & Access Management products
 - Implemented hybrid data driven REST service & CSV keyword scenario based test framework
-	
-Relevant Personal Projects:
-  1. NFT Generative art, smart contract, highly available & secure minting website hosted in AWS - Python, React, AWS S3, Cloudfront, Chainlink. Tutorial published in Coinmonks.
-	2022
-	2. NLP Sentiment Analysis Twitter data sentiment analysis by keyword. Containerized API driven web application hosted in AWS - React, Tweepy API, Python, Pandas, PyPlot, Elastic Beanstalk, Docker, Express API, Nginx, Redis, PostGres, Travis CI, gitHub.
-	2022
 
 
 Education:
@@ -108,7 +100,7 @@ Education:
 	3. Bachelor of Business Administration - General, Thompson Rivers University
 	2005 – 2010
 
-Certifications
+Certifications:
   2023: Atlassian Certified Professional - Jira
 	2021: AWS Certified Developer Associate
 	2021: AWS Certified Cloud Practitioner
@@ -117,44 +109,57 @@ Certifications
 	2018: Certified Bitcoin Professional
 
 
-Projects:
-- Ethereum Whale watcher, uses Ethers.js to monitor new Ethereum blocks and notify users when large Ether transactions occured.
-- NLP Sentiment analysis, used Pandas, Tweepy API and NLP Sentiment Analysis tools to develop Python scripts to generate charts indicating sentiment analysis outcomes from Twitter data.
-- Generative art NFT project deployed to Ethereum blockchain using Python, Brownie, IPFS storage.
+Relevant Projects:
+- NFT Generative art, smart contract, highly available & secure minting website hosted in AWS - Python, React, AWS S3, Cloudfront, Chainlink. Tutorial published in Coinmonks (link: https://medium.com/coinmonks/creating-generative-art-nfts-with-python-solidity-a95eaeea515e).
+	2022
+- NLP Sentiment Analysis Twitter data sentiment analysis by keyword. Containerized API driven web application hosted in AWS - React, Tweepy API, Python, Pandas, PyPlot, Elastic Beanstalk, Docker, Express API, Nginx, Redis, PostGres, Travis CI, gitHub.
+	2022
+- OpenAI ChatGPT driven chatbot: embedded a Javascript chatbot into my professional website to provide contact details and links as well as answer any questions about my experience & education, in a promotional tone. Chatbot uses ChatGPT APIs, AWS S3, CloudFront, Lambda & API Gateway.
+- Ethereum Whale watcher: uses Ethers.js to monitor new Ethereum blocks and notify users when large Ether transactions occured.
 
 Recommendations:
+  -Gray Knowlton, VP Of Engineering at Kaseya
+  Gray managed Parker directly
+  "Parker has had a profound effect on Quality Assurance at Kaseya, bringing the critically important
+  backbone required of a great QA organization. Parker is detail oriented, data
+  driven, and strongly principled. His knowledge of QA practice in both manual and
+  automated environments is outstanding. He has a strong eye for efficiency and
+  optimization, and did a wonderful job streamlining quality efforts of multiple
+  products to bring the required effort in line with available resources, and
+  producing much more reliable results. Most importantly, Parker knows how to build
+  quality environments that yield high quality, customer friendly software."
 
-Gray Knowlton, VP Of Engineering at Kaseya
-Gray managed Parker directly
-"Parker has had a profound effect on Quality Assurance at Kaseya, bringing the critically important
-backbone required of a great QA organization. Parker is detail oriented, data
-driven, and strongly principled. His knowledge of QA practice in both manual and
-automated environments is outstanding. He has a strong eye for efficiency and
-optimization, and did a wonderful job streamlining quality efforts of multiple
-products to bring the required effort in line with available resources, and
-producing much more reliable results. Most importantly, Parker knows how to build
-quality environments that yield high quality, customer friendly software."
+  -Vincent Tessier, Director of Software Engineering at Drips
+  Parker worked with Vincent in the same group
+  "Parker is an excellent hands-on leader and manager with great expertise in all aspects of
+  software quality. We have been working together for almost 3 years and I have seen
+  him solving very difficult problems with strong time constraints. Parker makes
+  decisions based on data. His vision, skills and process improvements of QA are
+  outstanding while providing very detailed reporting of all stages of QA operations.
+  He is also very focused on automation to improve test coverage in all areas of
+  software products. His managerial skills are excellent. Overall, I strongly
+  recommend Parker."
 
-Vincent Tessier, Director of Software Engineering at Drips
-Parker worked with Vincent in the same group
-"Parker is an excellent hands-on leader and manager with great expertise in all aspects of
-software quality. We have been working together for almost 3 years and I have seen
-him solving very difficult problems with strong time constraints. Parker makes
-decisions based on data. His vision, skills and process improvements of QA are
-outstanding while providing very detailed reporting of all stages of QA operations.
-He is also very focused on automation to improve test coverage in all areas of
-software products. His managerial skills are excellent. Overall, I strongly
-recommend Parker."
+  -Chris DiStasio, Principal Product Manager at Elastic
+  Chris was senior to Parker but didn't manage Parker directly
+  "Parker changed the game for our team! His work and the results that he drove will serve as the foundation for the future success of our development projects. 
+  Parker will raise his hand to take on a difficult problem (emphasis on *difficult*), get to the source of it, propose a solution, and then *measure and report* the progress in a meaningful and actionable way. Consider this in the context of a large, global engineering organization with a team of heavily matrixed cross-functional stakeholders (along with many other day-to-day challenges) and it's easy for me to recognize that what Parker has accomplished is nothing short of amazing.
+  Parker is someone you want on your team. I would welcome the opportunity to work with Parker again."
+  
+Publications
+Parker has several published articles and tutorials available online, they include, but are not limited to:
+- "Creating Generative Art NFTs with Python and Solidity" published in 'Coinmonks' (link: https://medium.com/coinmonks/creating-generative-art-nfts-with-python-solidity-a95eaeea515e)
+- "From Data to Dollars — Using Block Explorer, Moralis APIs, and The Graph for NFT Market Analysis" published in 'Coinmonks' (link: https://medium.com/coinmonks/get-ahead-of-the-game-from-data-to-dollars-using-block-explorer-moralis-apis-and-the-graph-1963198b9bee)
+- "How To Create On-chain NFTs with Solidity" published in 'Coinmonks' (link: https://medium.com/coinmonks/how-to-create-on-chain-nfts-with-solidity-1e20ff9dd87e)
+- "#DataDriven — Getting started with ML; how anyone can perform Sentiment Analysis on Twitter Data" published in 'The Startup' (link: https://medium.com/swlh/datadriven-an-exercise-in-twitter-data-retrieval-and-nlp-sentiment-analysis-dd44ffc76117)
 
-Chris DiStasio, Principal Product Manager at Elastic
-Chris was senior to Parker but didn't manage Parker directly
-"Parker changed the game for our team! His work and the results that he drove will serve as the foundation for the future success of our development projects. 
-Parker will raise his hand to take on a difficult problem (emphasis on *difficult*), get to the source of it, propose a solution, and then *measure and report* the progress in a meaningful and actionable way. Consider this in the context of a large, global engineering organization with a team of heavily matrixed cross-functional stakeholders (along with many other day-to-day challenges) and it's easy for me to recognize that what Parker has accomplished is nothing short of amazing.
-Parker is someone you want on your team. I would welcome the opportunity to work with Parker again."
-`;
+Interests
+  - Bodybuilding, Parker has been bodybuilding since University (age 22)  
+  - Dogs, Parker has 2 english bulldogs, a male named Kevin and a female named Butters
+  `;
 
 // Initialize prompt, updatable
-let initialPrompt = "You are a helpful chatbot that is embedded in a personal website for Parker Ferguson. The webiste has content has job and education history as well as recommendatations from previous colleagues, you have similar information as text in the chat history. You will answer questions about Parker when prompted, in a positive light and with a promotional tone as if you are representing him for a potential job offer. You will try to keep responses to to a maximum of 50 words but less in considered better. Your intiail promp was 'Hello! Do you have any questions about Parker Ferguson?' and you will expect an asnser from the user to start.";
+let initialPrompt = "You are a helpful chatbot that is embedded in a personal website for Parker Ferguson. The webiste has content including job and education history as well as recommendatations from previous colleagues, you have similar information as text in the chat history. You will answer questions about Parker when prompted, in a positive light and with a promotional tone as if you are representing him for a potential job offer. You will try to keep responses to to a maximum of 40 words but less in considered better. The default intiail prompt to user was 'Hello! Do you have any questions about Parker Ferguson?' and you will carry forward from there. You are the 'OpenAI ChatGPT driven chatbot' that is listed in 'Projects' summary.";
 
 // Initialize conversation history
 let conversationHistory = [
